@@ -1,8 +1,9 @@
 {
-  "name": "python-shell",
+  "name": "ppc-python-shell",
   "version": "0.2.0",
   "description": "slightly customized version of extrabacon's python-shell for ppComplete",
   "keywords": [
+    "ppComplete",
     "python"
   ],
   "scripts": {
