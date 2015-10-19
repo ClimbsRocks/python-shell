@@ -1,7 +1,7 @@
 {
   "name": "python-shell",
   "version": "0.2.0",
-  "description": "Run Python scripts from Node.js with simple (but efficient) inter-process communication through stdio",
+  "description": "slightly customized version of extrabacon's python-shell for ppComplete",
   "keywords": [
     "python"
   ],
@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/extrabacon/python-shell"
+    "url": "http://github.com/ClimbsRocks/python-shell"
   },
-  "homepage": "http://github.com/extrabacon/python-shell",
-  "bugs": "http://github.com/extrabacon/python-shell/issues",
+  "homepage": "http://github.com/ClimbsRocks/python-shell",
+  "bugs": "http://github.com/ClimbsRocks/python-shell/issues",
   "author": {
     "name": "Nicolas Mercier",
     "email": "nicolas@extrabacon.net"

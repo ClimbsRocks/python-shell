@@ -70,7 +70,11 @@ var PythonShell = function (script, options) {
 
     // listen to stderr and emit errors for incoming data
     this.stderr.on('data', function (data) {
-        errorData += ''+data;
+        // sknn gives some unnecessary and distracting warnings that cause python-shell to throw some rather ugly-looking error messages.
+        // the lines below make sure the user isn't distracted by these harmless but distracting messages
+        if( data.indexOf('WARNING:sknn:Parameter') === -1) {
+            errorData += ''+data;
+        }
     });
 
     this.childProcess.on('exit', function (code) {
